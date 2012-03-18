@@ -780,13 +780,6 @@ blocks:
           TOP: [0, 11]
           BOTTOM: [0, 13]
         name: Double Sandstone Slab
-
-    mapcolor: [218, 210, 158]
-    tex: [0, 12]
-    tex_direction:
-      TOP: [0, 11]
-      BOTTOM: [0, 13]
-
       2: 
         tex: [4, 0]
         name: Double Wooden Slab
@@ -843,7 +836,6 @@ blocks:
           FORWARD: [5, 0]
           BACKWARD: [5, 0]
           SIDES: [5, 0]
-          
         name: Upiside Down Stone Slab
       9: 
         tex: [0, 12]
