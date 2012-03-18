@@ -324,6 +324,9 @@ blocks:
       2: 
         name: Birch Sapling
         tex: [15, 4]
+      3:
+        name: Jungle sapling
+        tex: [14, 1]
     
   - id: 7
     idStr: BEDROCK
@@ -413,6 +416,9 @@ blocks:
       2:
         name: Birch Wood
         tex: [5, 7]
+      3:
+        name: Jungle Wood
+        tex: [9, 9]
   
   - id: 18
     idStr: LEAVES
@@ -770,7 +776,17 @@ blocks:
         name: Double Stone Slab
       1: 
         tex: [0, 12]
+        tex_direction:
+          TOP: [0, 11]
+          BOTTOM: [0, 13]
         name: Double Sandstone Slab
+
+    mapcolor: [218, 210, 158]
+    tex: [0, 12]
+    tex_direction:
+      TOP: [0, 11]
+      BOTTOM: [0, 13]
+
       2: 
         tex: [4, 0]
         name: Double Wooden Slab
@@ -803,6 +819,9 @@ blocks:
         name: Stone Slab
       1: 
         tex: [0, 12]
+        tex_direction:
+          TOP: [0, 11]
+          BOTTOM: [0, 13]
         name: Sandstone Slab
       2: 
         tex: [4, 0]
@@ -816,6 +835,34 @@ blocks:
       5: 
         tex: [6, 3]
         name: Stone Brick Slab
+      8: 
+        tex: [6, 0]
+        tex_direction:
+          TOP: [6, 0]
+          BOTTOM: [6, 0]
+          FORWARD: [5, 0]
+          BACKWARD: [5, 0]
+          SIDES: [5, 0]
+          
+        name: Upiside Down Stone Slab
+      9: 
+        tex: [0, 12]
+        tex_direction:
+          TOP: [0, 11]
+          BOTTOM: [0, 13]
+        name: Upiside Down Sandstone Slab
+      10: 
+        tex: [4, 0]
+        name: Upiside Down Wooden Slab
+      11: 
+        tex: [0, 1]
+        name: Upiside Down Cobblestone Slab
+      12: 
+        tex: [7, 0]
+        name: Upiside Down Brick Slab
+      13: 
+        tex: [6, 3]
+        name: Upiside Down Stone Brick Slab
     type: HALFHEIGHT
   
   - id: 45
@@ -1313,6 +1360,9 @@ blocks:
       2: 
         tex: [5, 6]
         name: Cracked Stone Bricks
+      3:
+        tex: [5, 13]
+        name: Circle Stone Bricks
 
   - id: 99
     idStr: HUGE_BROWN_MUSHROOM
@@ -1513,5 +1563,23 @@ blocks:
     name: End Stone
     mapcolor: [235, 248, 182]
     tex: [15, 10]
+
+  - id: 122
+    idStr: DRAGON_EGG
+    name: Dragon Egg
+    mapcolor: [16, 16, 16]
+    tex: [7, 10]
+
+  - id: 123
+    idStr: INACTIVE_REDSTONE_LAMP
+    name: Redstone Lamp (inactive)
+    mapcolor: [249, 212, 156]
+    tex: [3, 13]
+
+  - id: 124
+    idStr: ACTIVE_REDSTONE_LAMP
+    name: Redstone Lamp (active)
+    mapcolor: [249, 212, 156]
+    tex: [4, 13]
 
 ...
